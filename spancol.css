@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div.newspaper {
+  margin: 0 15px;
+  column-gap: 50px;
+  column-rule: 5px solid LightSteelBlue;
+  columns: 100px 3;
+}
+h1,
+h2 {
+  padding: 10px 10px 10px;
+  margin: 20px 0 0 0;
+  background: LightSteelBlue;
+  column-span: all;
+}
