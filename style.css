@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div {
+  width: 420px;
+  margin: 20px;
+  padding: 10px;
+  border: 2px solid Black;
+  background: LightSteelBlue;
+  font: 1.25em sans-serif;
+}
+div.outline {
+  outline: 10px solid RoyalBlue;
+  outline-offset: 5px;
+}
+div.resize {
+  resize: both;
+  overflow: auto;
+}
